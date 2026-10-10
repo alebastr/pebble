@@ -15,3 +15,5 @@ require (
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/tools v0.33.0 // indirect
 )
+
+replace github.com/go-jose/go-jose/v4 => github.com/james-d-elliott/go-jose/v4 v4.0.0-20260819232147-08b3c5999fb1

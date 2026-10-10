@@ -1,4 +1,4 @@
-# github.com/go-jose/go-jose/v4 v4.1.4
+# github.com/go-jose/go-jose/v4 v4.1.4 => github.com/james-d-elliott/go-jose/v4 v4.0.0-20260819232147-08b3c5999fb1
 ## explicit; go 1.24.0
 github.com/go-jose/go-jose/v4
 github.com/go-jose/go-jose/v4/cipher
@@ -45,3 +45,4 @@ golang.org/x/tools/internal/stdlib
 golang.org/x/tools/internal/typeparams
 golang.org/x/tools/internal/typesinternal
 golang.org/x/tools/internal/versions
+# github.com/go-jose/go-jose/v4 => github.com/james-d-elliott/go-jose/v4 v4.0.0-20260819232147-08b3c5999fb1
