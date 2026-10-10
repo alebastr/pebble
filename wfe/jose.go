@@ -33,6 +33,12 @@ func algorithmForKey(key *jose.JSONWebKey) (string, error) {
 			return string(jose.ES512), nil
 		}
 	}
+
+	alg := mldsaAlgorithmForKey(key)
+	if alg != "" {
+		return alg, nil
+	}
+
 	return "", fmt.Errorf("no signature algorithms suitable for given key type: %T", key.Key)
 }
 
